@@ -3,6 +3,13 @@ using System.Net.Mail;
 
 namespace Lesson1
 {
+    /// <summary>
+    /// ⚠️⚠️⚠️ Important ⚠️⚠️⚠️
+    /// Annotation for google :
+    /// You should set -> less secure app access
+    /// Turn allow less secure apps: ON
+    /// It absolutely work's - checked by myself
+    /// </summary>
     public static class MailSettings
     {
         private static readonly string _pass = "<YOUR PASSWORD HERE>";
